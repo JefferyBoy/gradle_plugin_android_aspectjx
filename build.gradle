@@ -28,6 +28,4 @@ allprojects {
             }
         }
     }
-
-    apply plugin: 'maven'
 }
