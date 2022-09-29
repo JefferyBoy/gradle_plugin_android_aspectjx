@@ -14,7 +14,6 @@
  */
 package com.hujiang.gradle.plugin.android.aspectjx.internal
 
-import com.android.SdkConstants
 import com.android.build.api.transform.*
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -346,7 +345,7 @@ class AJXUtils {
             jarMerger.setFilter(new JarMerger.IZipEntryFilter() {
                 @Override
                 boolean checkEntry(String archivePath) throws JarMerger.IZipEntryFilter.ZipAbortException {
-                    return archivePath.endsWith(SdkConstants.DOT_CLASS)
+                    return archivePath.endsWith(".class")
                 }
             })
 

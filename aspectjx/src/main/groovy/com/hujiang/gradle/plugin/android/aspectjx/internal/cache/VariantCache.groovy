@@ -16,7 +16,6 @@ package com.hujiang.gradle.plugin.android.aspectjx.internal.cache
 
 import com.android.build.api.transform.QualifiedContent
 import com.android.builder.model.AndroidProject
-import com.google.common.collect.ImmutableSet
 import com.google.gson.reflect.TypeToken
 import com.hujiang.gradle.plugin.android.aspectjx.internal.AJXUtils
 import com.hujiang.gradle.plugin.android.aspectjx.internal.model.JarInfo

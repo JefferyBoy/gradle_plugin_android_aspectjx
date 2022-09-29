@@ -14,7 +14,7 @@
  */
 package com.hujiang.gradle.plugin.android.aspectjx.internal
 
-import com.android.annotations.NonNull
+import androidx.annotation.NonNull
 import com.google.common.io.Closer
 import org.apache.commons.io.FileUtils
 

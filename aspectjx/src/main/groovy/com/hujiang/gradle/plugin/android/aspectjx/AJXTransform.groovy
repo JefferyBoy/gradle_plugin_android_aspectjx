@@ -14,13 +14,15 @@
  */
 package com.hujiang.gradle.plugin.android.aspectjx
 
+import com.android.build.api.transform.Context
 import com.android.build.api.transform.QualifiedContent
 import com.android.build.api.transform.Transform
 import com.android.build.api.transform.TransformException
+import com.android.build.api.transform.TransformInput
 import com.android.build.api.transform.TransformInvocation
+import com.android.build.api.transform.TransformOutputProvider
 import com.android.build.gradle.internal.pipeline.TransformManager
 import com.android.build.gradle.internal.pipeline.TransformTask
-import com.google.common.collect.ImmutableSet
 import com.hujiang.gradle.plugin.android.aspectjx.internal.cache.VariantCache
 import com.hujiang.gradle.plugin.android.aspectjx.internal.procedure.*
 import org.gradle.api.Project
